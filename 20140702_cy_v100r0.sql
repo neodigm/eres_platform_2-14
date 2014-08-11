@@ -108,7 +108,7 @@ CREATE TABLE IF NOT EXISTS `app_attach_tmpl` (
   `tmpl_nm` varchar(64) NOT NULL COMMENT 'Name of the Template',
   `attachment_nm` varchar(64) NOT NULL COMMENT 'Name of the attached file',
   `attachment_uri` varchar(176) NOT NULL COMMENT 'abs path',
-  `comment` blob COMMENT 'Admin Comment',
+  `comment_adm` blob COMMENT 'Admin Comment',
   `state_status` varchar(32) NOT NULL COMMENT 'ENABLED,  DISABLED or ARCHIVED',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
