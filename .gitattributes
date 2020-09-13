@@ -1,13 +1,13 @@
+*.html linguist-detectable=false
+*.js linguist-detectable=true
+*.ts linguist-detectable=true
+*.go linguist-detectable=true
+
 # Auto detect text files and perform LF normalization
 * text=auto
 
 # Custom for Visual Studio
 *.cs     diff=csharp
-*.sln    merge=union
-*.csproj merge=union
-*.vbproj merge=union
-*.fsproj merge=union
-*.dbproj merge=union
 
 # Standard to msysgit
 *.doc	 diff=astextplain
