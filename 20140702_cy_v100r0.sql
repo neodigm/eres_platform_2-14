@@ -1,3 +1,4 @@
+-- Scott C. Krause | Database Schema Design | Multi-tenant SaaS
 -- phpMyAdmin SQL Dump
 -- version 4.0.10deb1
 -- http://www.phpmyadmin.net
