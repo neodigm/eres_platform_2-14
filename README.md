@@ -4,7 +4,8 @@
 <p align="center">
 Sample Database Schema DDL 🐒 Multi-tenant SaaS
 </p>
-```ruby
+
+```sql
 CREATE TABLE IF NOT EXISTS `email_tmpl` (
   `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Primary Key / Auton',
   `created_at` datetime NOT NULL COMMENT 'audit: eloquent ORM',
@@ -20,6 +21,7 @@ CREATE TABLE IF NOT EXISTS `email_tmpl` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 ```
+
 #
 [Portfolio Blog](https://www.theScottKrause.com) |
 [🚀 Résumé](https://thescottkrause.com/Arcanus_Scott_C_Krause_2020.pdf) |
