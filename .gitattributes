@@ -1,7 +1,12 @@
+*.svg linguist-detectable=false
 *.html linguist-detectable=false
 *.js linguist-detectable=true
 *.ts linguist-detectable=true
 *.go linguist-detectable=true
+*.vue linguist-detectable=true
+*.ts linguist-language=TypeScript
+*.vue linguist-language=Vue
+*.sql linguist-language=SQL
 
 # Auto detect text files and perform LF normalization
 * text=auto
