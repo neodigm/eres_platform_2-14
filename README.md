@@ -21,6 +21,7 @@ CREATE TABLE IF NOT EXISTS `email_tmpl` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 ```
+<a href="https://gist.github.com/neodigm/a9272cbf44d4a35c134ddc90f530d38e" target="_blank">Oracle PL/SQL Stored Procedure</a>
 
 #
 [Portfolio Blog](https://www.theScottKrause.com) |
