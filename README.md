@@ -1,5 +1,5 @@
 [![License: BSD](https://badgen.net/badge/license/BSD/orange)](https://opensource.org/licenses/BSD-3-Clause)
-# MySQL DDL
+# MySQL / PostgreSQL DDL
 
 <p align="center">
 Sample Database Schema DDL 🐒 Multi-tenant SaaS
@@ -22,6 +22,62 @@ CREATE TABLE IF NOT EXISTS `email_tmpl` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 ```
 <a href="https://gist.github.com/neodigm/a9272cbf44d4a35c134ddc90f530d38e" target="_blank">Oracle PL/SQL Stored Procedure</a>
+
+```sql
+--  ███████  ██████  ██      
+--  ██      ██    ██ ██      
+--  ███████ ██    ██ ██      
+--       ██ ██ ▄▄ ██ ██      
+--  ███████  ██████  ███████  Relational ⚡ Transactional
+--              ▀▀           
+PROCEDURE post_stage
+(
+    in_rowid_job            cmxlb.cmx_rowid,
+    in_ldg_table_name       cmxlb.cmx_table_name,
+    in_stg_table_name       cmxlb.cmx_table_name,
+    out_error_msg      OUT  cmxlb.cmx_message,
+    out_return_code    OUT  int
+)
+AS
+sql_stmt varchar2(2000);
+t_party_acct_id varchar2(14);
+t_txn_div_cd varchar2(20);
+t_txn_div_display varchar2(50);
+commit_count NUMBER := 0;
+commit_inc NUMBER := 1000;
+--
+CURSOR C_PTAC_TXN IS
+SELECT PARTY_ACCT_ID, TXN_DIV_CD, TXN_DIV_DISPLAY
+FROM   C_STG_PTAC_TXN_DIV;
+--
+BEGIN
+--
+    commit_inc := to_number(GET_PARAMETER('post_stage_commit', commit_inc));
+    IF in_ldg_table_name = 'C_LDG_PTAC_TXN_DIV' AND in_stg_table_name = 'C_STG_PTAC_TXN_DIV' THEN
+    --    20130225 SCK Update the stage txn_div_display col with a denormalized string derived
+    --    from an aggregate of both staging and base object. 
+    --    🏄 SQL ⚡ ETL MDM ⚡ PL/SQL ORM
+        cmxlog.debug ('ADDUE: Landing table name is ' || in_ldg_table_name || ' Staging table name is ' || in_stg_table_name);
+        BEGIN
+              FOR R_PTAC_TXN in C_PTAC_TXN LOOP
+                    post_stage_concat(R_PTAC_TXN.PARTY_ACCT_ID, t_txn_div_display);
+                    UPDATE C_STG_PTAC_TXN_DIV
+                    SET txn_div_display = t_txn_div_display, create_date = sysdate WHERE TXN_DIV_CD = R_PTAC_TXN.TXN_DIV_CD AND
+                    PARTY_ACCT_ID = R_PTAC_TXN.PARTY_ACCT_ID;  -- CURRENT OF C_PTAC_TXN;
+                    commit_count := commit_count + commit_inc;
+                    IF MOD(commit_count, 1000) = 0 THEN
+                        cmxlog.debug ('ADDUE: post_stage_concat is: ' || commit_count || ':' || R_PTAC_TXN.PARTY_ACCT_ID || ' : ' || t_txn_div_display);
+                        COMMIT;
+                    END IF;
+              END LOOP;
+              COMMIT;
+        END;
+    ELSE
+      CMXlog.debug ('ADDUE Post Stage - no action taken');
+    END IF;
+END post_stage;
+END ADD_UE;
+```
 
 #
 [Portfolio Blog](https://www.theScottKrause.com) |
