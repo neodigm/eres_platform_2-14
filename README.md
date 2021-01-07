@@ -2,7 +2,7 @@
 # MySQL / PostgreSQL DDL
 
 <p align="center">
-Sample Database Schema DDL 🐒 Multi-tenant SaaS
+Sample Database Schema SQL DDL 🐒 Multi-tenant SaaS
 </p>
 
 ```sql
