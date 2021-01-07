@@ -28,7 +28,7 @@ CREATE TABLE IF NOT EXISTS `email_tmpl` (
 --  ██      ██    ██ ██      
 --  ███████ ██    ██ ██      
 --       ██ ██ ▄▄ ██ ██      
---  ███████  ██████  ███████  Relational ⚡ Transactional
+--  ███████  ██████  ███████  Relational ⚡ Transactional | SQL DDL 🐒 Multi-tenant SaaS
 --              ▀▀           
 PROCEDURE post_stage
 (
