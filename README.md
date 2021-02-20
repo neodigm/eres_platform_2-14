@@ -8,13 +8,13 @@
     </p>
   </summary>
   <p align="center">
-  <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvs.svg" width="55" alt="Vivid Vector Skulduggery">
-  <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvq.svg" width="55" alt="🚀TypeScript && Go">
-  <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvl.svg" width="55" alt="Vivid Vector Skulduggery">
+  <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvs.svg" width="76" alt="Vivid Vector Skulduggery">
+  <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvq.svg" width="76" alt="🚀TypeScript && Go">
+  <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvl.svg" width="76" alt="Vivid Vector Skulduggery">
       <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvspace.svg" width="33" alt="Vivid Vector Skulduggery">
-  <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvd.svg" width="55" alt="Vivid Vector ✨ Cypress && JavaScript && TypeScript && Go 🪐">
-  <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvd.svg" width="55" alt="Vivid Vector Skulduggery">
-  <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvl.svg" width="55" alt="Vivid Vector Skulduggery">
+  <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvd.svg" width="76" alt="Vivid Vector ✨ Cypress && JavaScript && TypeScript && Go 🪐">
+  <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvd.svg" width="76" alt="Vivid Vector Skulduggery">
+  <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvl.svg" width="76" alt="Vivid Vector Skulduggery">
   </p>
 </details>
 
