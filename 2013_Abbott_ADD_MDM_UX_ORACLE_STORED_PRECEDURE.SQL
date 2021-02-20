@@ -1,5 +1,6 @@
 CREATE OR REPLACE PACKAGE BODY ADD_ORS.ADD_UE AS
---
+-- Informatica MDM User Exit PL/SQL
+-- 🏄 SQL⚡ ETL MDM ⚡ PL/SQL ORM
 FUNCTION show_version
     RETURN cmxlb.cmx_med_str
 AS
