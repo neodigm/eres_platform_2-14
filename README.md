@@ -2,23 +2,24 @@
 
 
 <details>
-<summary>
-<p align="center">
-<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vv3.svg" width="55" alt="Vivid Vector Skulduggery">
-<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvd.svg" width="55" alt="🚀TypeScript && Go">
-<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvspace.svg" width="33" alt="Vivid Vector Skulduggery">
-<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvd.svg" width="55" alt="Vivid Vector Skulduggery">
-<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvi.svg" width="55" alt="Vivid Vector ✨ Cypress && JavaScript && TypeScript && Go 🪐">
-<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvc.svg" width="55" alt="Vivid Vector Skulduggery">
-<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vve.svg" width="55" alt="Vivid Vector Skulduggery">
-</p>
-</summary>
+  <summary>
+    <p align="center">
+    Sample Database Schema SQL DDL 🐒 Multi-tenant SaaS
+    </p>
+  </summary>
+  <p align="center">
+  <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvs.svg" width="55" alt="Vivid Vector Skulduggery">
+  <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvq.svg" width="55" alt="🚀TypeScript && Go">
+  <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvl.svg" width="55" alt="Vivid Vector Skulduggery">
+      <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvspace.svg" width="33" alt="Vivid Vector Skulduggery">
+  <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvd.svg" width="55" alt="Vivid Vector ✨ Cypress && JavaScript && TypeScript && Go 🪐">
+  <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvd.svg" width="55" alt="Vivid Vector Skulduggery">
+  <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvl.svg" width="55" alt="Vivid Vector Skulduggery">
+  </p>
   <img src="http://neodigm.github.io/eres_platform_2-14/scott_krause_database_er_design.webp" alt="Sample Database Schema SQL DDL 🐒 Multi-tenant SaaS">
 </details>
 
-<p align="center">
-Sample Database Schema SQL DDL 🐒 Multi-tenant SaaS
-</p>
+
 
 ```sql
 CREATE TABLE IF NOT EXISTS `email_tmpl` (
