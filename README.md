@@ -16,10 +16,9 @@
   <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvd.svg" width="55" alt="Vivid Vector Skulduggery">
   <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvl.svg" width="55" alt="Vivid Vector Skulduggery">
   </p>
-  <img src="http://neodigm.github.io/eres_platform_2-14/scott_krause_database_er_design.webp" alt="Sample Database Schema SQL DDL 🐒 Multi-tenant SaaS">
 </details>
 
-
+  <img src="http://neodigm.github.io/eres_platform_2-14/scott_krause_database_er_design.webp" alt="Sample Database Schema SQL DDL 🐒 Multi-tenant SaaS">
 
 ```sql
 CREATE TABLE IF NOT EXISTS `email_tmpl` (
