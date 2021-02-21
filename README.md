@@ -4,7 +4,7 @@
 <details>
   <summary>
     <p align="center">
-    Sample Database Schema SQL DDL 🐒 Multi-tenant SaaS
+    Sample Database Schema SQL DDL 🚀 Multi-tenant SaaS
     </p>
   </summary>
   <p align="center">
