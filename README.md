@@ -17,7 +17,7 @@
   <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvl.svg" width="76" alt="Vivid Vector Skulduggery">
   </p>
 </details>
-      [Currated Emerging Tech](https://www.thescottkrause.com/tags/curated/)
+
   <img src="http://neodigm.github.io/eres_platform_2-14/scott_krause_database_er_design.webp" alt="Sample Database Schema SQL DDL 🐒 Multi-tenant SaaS">
 
 ```sql
@@ -93,6 +93,8 @@ BEGIN
 END post_stage;
 END ADD_UE;
 ```
+
+[Currated Emerging Tech](https://www.thescottkrause.com/tags/curated/)
 
 #
 [Portfolio Blog](https://www.theScottKrause.com) |
