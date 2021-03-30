@@ -5,7 +5,6 @@
   <summary>
     <p align="center">
     Sample Database Schema SQL DDL 🚀 Multi-tenant SaaS
-      [Currated Emerging Tech](https://www.thescottkrause.com/tags/curated/)
     </p>
   </summary>
   <p align="center">
@@ -18,7 +17,7 @@
   <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvl.svg" width="76" alt="Vivid Vector Skulduggery">
   </p>
 </details>
-
+      [Currated Emerging Tech](https://www.thescottkrause.com/tags/curated/)
   <img src="http://neodigm.github.io/eres_platform_2-14/scott_krause_database_er_design.webp" alt="Sample Database Schema SQL DDL 🐒 Multi-tenant SaaS">
 
 ```sql
