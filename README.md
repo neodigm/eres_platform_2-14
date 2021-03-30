@@ -5,6 +5,7 @@
   <summary>
     <p align="center">
     Sample Database Schema SQL DDL 🚀 Multi-tenant SaaS
+      [Currated Emerging Tech](https://www.thescottkrause.com/tags/curated/)
     </p>
   </summary>
   <p align="center">
