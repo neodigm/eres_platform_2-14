@@ -14,7 +14,7 @@
       <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvspace.svg" width="33" alt="Vivid Vector Skulduggery">
   <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvd.svg" width="76" alt="Vivid Vector ✨ Cypress && JavaScript && TypeScript && Go 🪐">
   <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvd.svg" width="76" alt="Vivid Vector Skulduggery">
-  <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvl.svg" width="76" alt="Vivid Vector Skulduggery">
+  <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvl.svg" width="76" alt="👁️ D3 Parallax Three.js Greensock && WebGL 🍭">
   </p>
 </details>
 
