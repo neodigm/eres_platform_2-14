@@ -57,7 +57,7 @@ CREATE TABLE IF NOT EXISTS `app_attach` (
   `created_by` int(11) DEFAULT NULL COMMENT 'account  > ID',
   `created_at` datetime NOT NULL COMMENT 'audit: eloquent ORM',
   `updated_by` int(11) NOT NULL COMMENT 'account  > ID or Null',
-  `updated_at` datetime NOT NULL COMMENT 'audit: eloquent ORM',
+  `updated_at` datetime NOT NULL COMMENT 'audit: eloquent Vue.js ORM',
   `state_type` varchar(32) NOT NULL,
   `state_stage` varchar(32) NOT NULL,
   `attachment_nm` varchar(64) NOT NULL COMMENT 'Name of the attached file',
