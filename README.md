@@ -8,7 +8,7 @@
     </p>
   </summary>
   <p align="center">
-  <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvs.svg" width="76" alt="Vivid Vector Skulduggery">
+  <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvs.svg" width="76" alt="Vivid Vector ✨ JavaScript && TypeScript && Go 🪐">
   <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvq.svg" width="76" alt="🚀TypeScript && Go">
   <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvl.svg" width="76" alt="Vivid Vector Skulduggery">
       <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvspace.svg" width="33" alt="Vivid Vector 👁️ D3 Parallax Three.js Greensock && WebGL 🍭">
