@@ -9,7 +9,7 @@
   </summary>
   <p align="center">
   <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvs.svg" width="76" alt="Vivid Vector ✨ JavaScript && TypeScript && Go 🪐">
-  <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvq.svg" width="76" alt="🚀TypeScript && Go">
+  <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvq.svg" width="76" alt="🚀Go TypeScript ⚡ WASM ✨ NestJS">
   <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvl.svg" width="76" alt="Vivid DataVis 🚀 Micro Frontend 🚀 PWA Skulduggery DataVis 🚀 Micro Frontend 🚀 PWA">
       <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvspace.svg" width="33" alt="Vivid Vector 👁️ D3 Parallax Three.js Greensock && WebGL 🍭">
   <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvd.svg" width="76" alt="Vivid Vector ✨ Cypress && JavaScript && TypeScript && Go 🪐">
