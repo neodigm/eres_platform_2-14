@@ -1,5 +1,5 @@
 ```sql
--- Scott C. Krause (neodigm) | Database Schema Design | Multi-tenant SaaS | One does what one must 🦄
+-- Scott C. Krause (neodigm) | Database Schema Design | Multi-tenant SaaS | SQL⚡ ETL MDM ⚡ PL/SQL ORM
 -- phpMyAdmin SQL Dump
 -- version 4.0.10deb1
 -- http://www.phpmyadmin.net
